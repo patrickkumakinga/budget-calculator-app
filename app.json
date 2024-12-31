@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "culbudgetApp",
+    "name": "calculbudget",
     "slug": "culbudgetApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/shakLogo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -12,16 +12,35 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSDocumentsUsageDescription": "This app needs access to your documents to save and share PDFs."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET"
+      ],
+      "package": "com.kumakinga.culbudgetApp"
+    },
+    "plugins": [
+      "expo-file-system"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c113aa54-a33e-48c3-9e86-b16bf3405b9b"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "publicUrl": "http://localhost:8080"
     }
   }
 }
