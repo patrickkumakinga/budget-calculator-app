@@ -30,5 +30,5 @@ Pour installer et démarrer l'application en local, suivez les étapes ci-dessou
 
 1. Clonez ce répertoire :
    ```bash
-   git clone https://github.com/votre-utilisateur/budget-calculator.git
+   git clone https://github.com/patrickkumakinga/budget-calculator-app.git
 
