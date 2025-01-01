@@ -1,5 +1,5 @@
 # budget-calculator-app
-Application Calculateur de Budget | Budget Calculator Mobile App 📱
+# Application Mobile de Calcul Budgétaire | Budget Calculator Mobile App 📱
 -------------------------------------------------------------
 ## Description
 
@@ -9,6 +9,8 @@ Le projet est mis à disposition sur **GitHub** de manière publique. Ce dépôt
 
 L'application a été développée en utilisant **React Native** et peut être visualisée facilement avec **Expo Go**. Si vous souhaitez voir l'application en action sur votre appareil, vous pouvez utiliser Expo Go pour scanner le QR code généré lors de l'exécution du projet.
 
+De plus, l'application utilise **le franc congolais (FC)** comme monnaie locale pour le calcul des dépenses et des revenus. Cependant, vous êtes libre de modifier cette devise selon vos préférences ou besoins.
+
 ---
 
 This mobile budget calculator app helps users manage and track their expenses and income. It is designed to be simple and intuitive, helping users better understand and manage their budget.
@@ -16,6 +18,8 @@ This mobile budget calculator app helps users manage and track their expenses an
 The project is publicly available on **GitHub**. This repository is open to all developers who want to modify, customize, or improve the app. Feel free to make changes, add features, or submit **pull requests** to share your improvements.
 
 The app was developed using **React Native** and can be easily viewed using **Expo Go**. If you want to see the app in action on your device, you can use Expo Go to scan the QR code generated when running the project.
+
+Additionally, the app uses **Congolese Franc (FC)** as the local currency for expense and income calculations. However, you are free to modify this currency to suit your preferences or needs.
 
 ## Fonctionnalités | Features
 
@@ -27,8 +31,10 @@ The app was developed using **React Native** and can be easily viewed using **Ex
 ## Installation
 
 Pour installer et démarrer l'application en local, suivez les étapes ci-dessous :
+"To install and run the app locally, follow the steps below:"
 
 1. Clonez ce répertoire :
+2. "Clone this repository:"
    ```bash
    git clone https://github.com/patrickkumakinga/budget-calculator-app.git
 
